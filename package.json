@@ -1,17 +1,19 @@
 {
-  "name": "nodejs",
+  "name": "waifu-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "A fast Express server to fetch waifu images based on search queries.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@types/node": "^18.0.6",
+    "compression": "^1.7.4",
     "cors": "^2.8.5",
-    "express": "^4.19.2"
-  }
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Hassan",
+  "license": "ISC"
 }
